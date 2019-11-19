@@ -2,11 +2,14 @@ package edu.ivytech.crimetrackerdemo;
 
 import android.content.Context;
 
+import java.util.List;
+
 /* !!!!!For recycler view!!!!! */
 
 public class CrimeLab {
 
     public static CrimeLab sCrimeLab;
+    private List<Crime> mCrimes;
 
     public static CrimeLab get(Context context)
     {
@@ -20,7 +23,7 @@ public class CrimeLab {
 
     private CrimeLab(Context context)
     {
-
+        
     }
 
 }
