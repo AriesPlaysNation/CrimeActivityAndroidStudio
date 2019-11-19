@@ -13,6 +13,8 @@ public class CrimeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_crime);
 
+
+
         FragmentManager fragman = getSupportFragmentManager();
         Fragment fragment = fragman.findFragmentById(R.id.fragment_container);
 
