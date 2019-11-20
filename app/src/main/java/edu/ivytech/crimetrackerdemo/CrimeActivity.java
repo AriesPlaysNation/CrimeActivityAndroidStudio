@@ -10,5 +10,5 @@ public class CrimeActivity extends SingleFragmentActivity {
         return new CrimeFragment();
     }
 
-    
+
 }
