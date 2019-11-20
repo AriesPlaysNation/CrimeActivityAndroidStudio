@@ -25,4 +25,12 @@ public class CrimeListFragment extends Fragment
         mCrimeRecyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
         return view;
     } /* ----------------------------------------------------------------------------------------------------- */
+
+    private class Crimeholder extends RecyclerView.ViewHolder
+    {
+        public CrimeHolder(LayoutInflater inflater, ViewGroup parent)
+        {
+            super(inflater.inflate(R.layout.list_item_crime, parent, false));
+        }
+    }
 }
